@@ -1,0 +1,75 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f3e6f8, #e6e4fa);
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-icon {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.contact-btn {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+}
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.hero-text p {
+  font-size: 18px;
+  color: #555;
+}
+.hero-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* About Section */
+#about {
+  padding: 60px 40px;
+}
+#about h2 {
+  font-size: 28px;
+}
